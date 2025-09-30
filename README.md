@@ -12,21 +12,21 @@ This project involves training and evaluating an emotion classification model us
 
 - **Experiments+interactive.ipynb**: Explores different texts and compares **Full Fine-Tuning (FT)** vs **LoRA** models with an interactive demo.
 
-- **Finetuning+creating_models.ipynb**: Contains scripts for **fine-tuning** the models and **creating LoRA adapters**, along with evaluation results.
+- **Finetuning+creating_models.ipynb**: Contains scripts for my own **fine-tuning** the models and **creating LoRA adapters**, along with creating the other files in this repo (evaluation results)
 
 - **README.md**: This file. Provides an overview of the project and instructions for setup and running the code.
 
 - **confusion_matrices.png**: Visualizes the confusion matrices for the **Full Fine-Tuning (FT)** and **LoRA** models.
 
-- **data_distribution.png**: Displays the **data distribution** used in the experiments.
+- **data_distribution.png**: Displays the **data distribution** of the dataset
 
 - **error_analysis.json**: Contains error analysis results for **Full FT** and **LoRA** models.
 
 - **main.ipynb**: The **entry point** for running the model, including loading pre-trained models, performing fine-tuning, and testing with custom inputs.
 
-- **ood_evaluation.json**: Stores evaluation results on **out-of-domain (OOD)** data.
+- **ood_evaluation.json**: Stores evaluation results on **Go-emotion (reddit)** data.
 
-- **requirements.txt**: Lists required Python libraries to run the project.
+- **requirements.txt**: Lists of Python libraries versions that was used to run the results
 
 - **results_summary.json**: Provides a summary of the evaluation results for both models.
 
