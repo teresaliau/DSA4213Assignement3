@@ -6,29 +6,29 @@ This project involves training and evaluating an emotion classification model us
 
 ## Project Structure
 
-### **Files Description**
+### **File Descriptions**
 
-- **.gitignore**: Specifies which files and directories should be ignored by Git. This file helps avoid tracking temporary or unnecessary files such as logs and `__pycache__`.
+- **.gitignore**: Specifies which files and directories Git should ignore.
 
-- **Experiments+interactive.ipynb**: Contains the experiments comparing **Full Fine-Tuning (FT)** and **LoRA (Low-Rank Adaptation)** models. Also includes an interactive demo for testing the models with custom input sentences to classify emotions.
+- **Experiments+interactive.ipynb**: Explores different texts and compares **Full Fine-Tuning (FT)** vs **LoRA** models with an interactive demo.
 
-- **Finetuning+creating_models.ipynb**: Demonstrates the **fine-tuning process** for a pre-trained model and the creation of **LoRA adapters**. This notebook covers model setup, fine-tuning, and training on an emotion classification task.
+- **Finetuning+creating_models.ipynb**: Contains scripts for **fine-tuning** the models and **creating LoRA adapters**, along with evaluation results.
 
-- **README.md**: This file. Provides a detailed overview of the project, including how to set up and run the models, along with necessary instructions for downloading and uploading the models to Google Drive, and running the code on Colab.
+- **README.md**: This file. Provides an overview of the project and instructions for setup and running the code.
 
-- **confusion_matrices.png**: Visualizes the **confusion matrices** for the comparison between **Full Fine-Tuning (FT)** and **LoRA** models. It helps illustrate how well each model predicts the emotion categories.
+- **confusion_matrices.png**: Visualizes the confusion matrices for the **Full Fine-Tuning (FT)** and **LoRA** models.
 
-- **data_distribution.png**: Provides a summary of the **data distribution** used in the experiments. It visualizes how the dataset is split and the distribution of emotion labels across the dataset.
+- **data_distribution.png**: Displays the **data distribution** used in the experiments.
 
-- **error_analysis.json**: Contains detailed results of the **error analysis** for both **Full Fine-Tuning (FT)** and **LoRA** models. Includes insights on where each model performed poorly and the types of errors made during classification.
+- **error_analysis.json**: Contains error analysis results for **Full FT** and **LoRA** models.
 
-- **main.ipynb**: This is the **entry point** for the project when running it on **Google Colab**. It loads pre-trained models, performs fine-tuning, evaluates models, and provides an interactive section where you can test the models with your own input sentences.
+- **main.ipynb**: The **entry point** for running the model, including loading pre-trained models, performing fine-tuning, and testing with custom inputs.
 
-- **ood_evaluation.json**: Stores the evaluation results for the models when tested on **out-of-domain (OOD)** data. This file includes performance metrics for both the **Full Fine-Tuning** and **LoRA** models on data that was not part of the training set.
+- **ood_evaluation.json**: Stores evaluation results on **out-of-domain (OOD)** data.
 
-- **requirements.txt**: Lists the Python dependencies required to run the project, including libraries like `transformers`, `datasets`, `torch`, etc. This ensures all necessary libraries are installed in your environment for smooth execution.
+- **requirements.txt**: Lists required Python libraries to run the project.
 
-- **results_summary.json**: Provides a **summary of the results** from the fine-tuning experiments, including key performance metrics such as accuracy and F1 score, and compares the performance of the **Full Fine-Tuning** model with the **LoRA** model.
+- **results_summary.json**: Provides a summary of the evaluation results for both models.
 
 
 ## Instructions
