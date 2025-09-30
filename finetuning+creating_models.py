@@ -14,7 +14,7 @@ Original file is located at
 !git config --global user.name "teresaliau"
 
 # Commented out IPython magic to ensure Python compatibility.
-# Clone your repository (REPLACE YOUR_USERNAME)
+# Clone your repository
 !git clone https://github.com/teresaliau/DSA4213Assignement3.git
 
 # %cd DSA4213Assignement3
