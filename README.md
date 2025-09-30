@@ -72,8 +72,11 @@ python main.py
 jupyter notebook main.ipynb
 ```
 
+5. Interactive Demo
 
-## Potential iSsues
+Enter your own input sentences. If you want the py to stop running, press Enter without entering any characters.
+
+## Potential Issues
 
 **CUDA errors on Mac:**
 - Expected - Macs don't support CUDA
