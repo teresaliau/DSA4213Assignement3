@@ -29,7 +29,7 @@ DSA4213Assignement3/
 
 ### 1. Install Dependencies
 ```bash
-git clone
+git clone https://github.com/teresaliau/DSA4213Assignement3.git
 cd DSA4213Assignement3
 pip install -r requirements.txt
 ```
