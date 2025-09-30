@@ -10,7 +10,7 @@ This project involves training and evaluating an emotion classification model us
 
 ```
 DSA4213Assignement3/
-│
+├── main.py                   # Main entry point - run this script
 ├── .gitignore                # Specifies which files and directories Git should ignore.
 ├── Experiments+interactive.ipynb  # Explores different texts and compares Full Fine-Tuning (FT) vs LoRA models with an interactive demo.
 ├── Finetuning+creating_models.ipynb  # Contains scripts for fine-tuning the models and creating LoRA adapters, along with creating the other files in this repo (evaluation results).
@@ -25,48 +25,62 @@ DSA4213Assignement3/
 ```
 
 
+## Quick Start
 
-
-## Instructions
-
-### Step 1: Download the models
-
-You will need to download the models for both the **Full Fine-Tuned Model** and the **LoRA Adapter** from the link below:
-
-* **Link to folder With models**: [Link](https://drive.google.com/drive/folders/1816wQI74aatPBEL_OIk4FQhVvZtPRG39?usp=sharing)
-
-**Link to Individual models**
-* **Full Fine-Tuned Model**: [Link](https://drive.google.com/drive/folders/1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy?usp=sharing)
-* **LoRA Adapter**: [Link](https://drive.google.com/drive/folders/1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-?usp=sharing)
-
-### Step 2: Upload to Google Drive
-
-Once you have downloaded the models, upload the model folders (`model_full_finetuned` and `model_lora_adapter`) to your Google Drive. For simplicity, I recommend uploading them to the `MyDrive` directory of your Google Drive.
-
-### Step 3: Mount Google Drive in Colab
-
-Open the notebook in Google Colab and mount your Google Drive to access the model files. The following code is already included in main.ipynb script
-
-```python
-from google.colab import drive
-drive.mount('/content/drive')
+### 1. Install Dependencies
+```bash
+git clone
+cd DSA4213Assignement3
+pip install -r requirements.txt
 ```
 
-### Step 4: Set the correct model paths
+### 2. Download Models
+Download the pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1816wQI74aatPBEL_OIk4FQhVvZtPRG39?usp=sharing) and place them in your project directory.
 
-After mounting your Google Drive, the notebook will automatically load the models from your Drive. If you've uploaded the models to `MyDrive`, the paths will look like this:
+**Individual model links:**
+- [Full Fine-Tuned Model](https://drive.google.com/drive/folders/1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy?usp=sharing)
+- [LoRA Adapter](https://drive.google.com/drive/folders/1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-?usp=sharing)
 
-```python
-# Define model paths in your Google Drive
-model_full_path = '/content/drive/MyDrive/model_full_finetuned'
-model_lora_path = '/content/drive/MyDrive/model_lora_adapter'
+### 3. Upload Run the Code
+
+**Option 1: Python Script (Recommended)**
+Upload the models into the local repo. Running:
+```bash
+!ls
 ```
-If your models are saved elsewhere, change the paths accordingly
-Ensure that these paths reflect where you uploaded the model folders.
+You should see **Full Fine-Tuned Model** and **LoRA Adapter**
 
-### Step 5: Run the Notebook
+```bash
+python main.py
+# or python3 main.py for Apple
+```
 
-Once the models are mounted correctly, you can run the notebook. The notebook will load the models from your Google Drive and start running the emotion classification tasks.
+**Option 2: Jupyter Notebook (If main.py doesn't work)**
 
-### Step 6: INteract with the models
-You can input your own sentences in the last section of the notebook. Press Enter within the bar for it to stop running.
+*For Google Colab:*
+1. Upload `main.ipynb` to Colab
+2. Mount Google Drive and upload models there
+3. Update model paths:
+   ```python
+   model_full_path = '/content/drive/MyDrive/model_full_finetuned'
+   model_lora_path = '/content/drive/MyDrive/model_lora_adapter'
+   ```
+4. Run all cells
+
+*For local Jupyter:*
+```bash
+jupyter notebook main.ipynb
+```
+
+
+## Potential iSsues
+
+**CUDA errors on Mac:**
+- Expected - Macs don't support CUDA
+- Code automatically uses MPS (Apple Silicon) or CPU
+- For GPU access, use Google Colab with GPU runtime
+
+
+**If main.py still doesn't work:**
+Use `main.ipynb` in Google Colab instead (has GPU support and no compatibility issues)
+
