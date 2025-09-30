@@ -72,7 +72,7 @@ python main.py
 jupyter notebook main.ipynb
 ```
 
-5. Interactive Demo
+### 4. Interactive Demos
 
 Enter your own input sentences. If you want the py to stop running, press Enter without entering any characters.
 
