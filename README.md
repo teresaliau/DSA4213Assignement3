@@ -41,7 +41,7 @@ You will need to download the models for both the **Full Fine-Tuned Model** and 
 
 ### Step 2: Upload to Google Drive
 
-Once you have downloaded the models, upload the model folders (`model_full_finetuned` and `model_lora_adapter`) to your Google Drive. For simplicity, we recommend uploading them to the `MyDrive` directory of your Google Drive.
+Once you have downloaded the models, upload the model folders (`model_full_finetuned` and `model_lora_adapter`) to your Google Drive. For simplicity, I recommend uploading them to the `MyDrive` directory of your Google Drive.
 
 ### Step 3: Mount Google Drive in Colab
 
