@@ -6,7 +6,11 @@ This project involves training and evaluating an emotion classification model us
 
 ## Project Structure
 
+
+
+```
 DSA4213Assignement3/
+│
 ├── .gitignore                # Specifies which files and directories Git should ignore.
 ├── Experiments+interactive.ipynb  # Explores different texts and compares Full Fine-Tuning (FT) vs LoRA models with an interactive demo.
 ├── Finetuning+creating_models.ipynb  # Contains scripts for fine-tuning the models and creating LoRA adapters, along with creating the other files in this repo (evaluation results).
@@ -18,6 +22,8 @@ DSA4213Assignement3/
 ├── ood_evaluation.json       # Stores evaluation results on Go-emotion (Reddit) data.
 ├── requirements.txt          # Lists the Python libraries and versions that were used to run the results.
 └── results_summary.json      # Provides a summary of the evaluation results for both models.
+```
+
 
 
 
