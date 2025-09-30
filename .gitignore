@@ -1,0 +1,40 @@
+
+# Models (too large)
+model_full_finetuned/
+model_lora_adapter/
+*.bin
+*.safetensors
+
+# Training outputs
+results_full/
+results_lora/
+logs_full/
+logs_lora/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+data/
+
+# Models (too large)
+model_full_finetuned/
+model_lora_adapter/
+*.bin
+*.safetensors
+
+# Training outputs
+results_full/
+results_lora/
+logs_full/
+logs_lora/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+data/

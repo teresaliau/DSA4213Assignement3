@@ -1,0 +1,475 @@
+{
+  "total_errors": 65,
+  "error_rate": 0.065,
+  "most_confused_pairs": [
+    {
+      "true": "joy",
+      "predicted": "love",
+      "count": 12
+    },
+    {
+      "true": "love",
+      "predicted": "joy",
+      "count": 9
+    },
+    {
+      "true": "sadness",
+      "predicted": "fear",
+      "count": 5
+    },
+    {
+      "true": "fear",
+      "predicted": "sadness",
+      "count": 5
+    },
+    {
+      "true": "anger",
+      "predicted": "sadness",
+      "count": 4
+    }
+  ],
+  "sample_errors": [
+    {
+      "text": "i decided to lay down in my bed but then i started to feel really violent like i wanted to punch and kick things except i didnt wnat to hurt anything",
+      "true_label": "joy",
+      "predicted_label": "love"
+    },
+    {
+      "text": "i feel passionate about knitting and seeing really good films and the surprisingly awesome tv programs that are on now i cant believe i just wrote that",
+      "true_label": "love",
+      "predicted_label": "sadness"
+    },
+    {
+      "text": "i still feel stupid to be in that class this is all cause off pbss fault",
+      "true_label": "joy",
+      "predicted_label": "love"
+    },
+    {
+      "text": "i get the feeling donald is smart enough to educate himself through his own densely focused meanderings and their inherent shortcomings",
+      "true_label": "fear",
+      "predicted_label": "sadness"
+    },
+    {
+      "text": "i was still feeling weepy and strung out so maggie treated me to ice cream and a movie a href http www",
+      "true_label": "joy",
+      "predicted_label": "fear"
+    },
+    {
+      "text": "im feeling depressed again",
+      "true_label": "fear",
+      "predicted_label": "surprise"
+    },
+    {
+      "text": "i do take on a half marathon challenge then i will wait and see how the body feels as to whether there will be a pb attempt or a casual kilometre shuffle",
+      "true_label": "anger",
+      "predicted_label": "fear"
+    },
+    {
+      "text": "i was feeling particularly vulnerable in a specific area so i began to talking to my friends and interestingly enough there was an incredible understanding of my struggle",
+      "true_label": "sadness",
+      "predicted_label": "fear"
+    },
+    {
+      "text": "ive had a few rough days since then and in the midst of crying and dealing and feeling just so defeated and emotional i put my coat on and curled up and created this safety nest inside my coat",
+      "true_label": "joy",
+      "predicted_label": "anger"
+    },
+    {
+      "text": "i feel very important in my fancy room with my fancy furniture and nice view of downtown dallas",
+      "true_label": "love",
+      "predicted_label": "joy"
+    }
+  ],
+  "all_errors": [
+    {
+      "text": "i still feel stupid to be in that class this is all cause off pbss fault",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i finally arrived home a couple of hours later feeling somewhat exhausted dehydrated and even sun burnt",
+      "true_label": "fear",
+      "predicted_label": "sadness",
+      "confusion_pair": "fear \u2192 sadness"
+    },
+    {
+      "text": "i am feeling totally relaxed and comfy",
+      "true_label": "anger",
+      "predicted_label": "sadness",
+      "confusion_pair": "anger \u2192 sadness"
+    },
+    {
+      "text": "i realized my mistake and i m really feeling terrible and thinking that i shouldn t do that",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i have a feeling that people are using it more than they need to and enjoying the feeling as it flies carefree off the tongue but that is alright with me",
+      "true_label": "fear",
+      "predicted_label": "anger",
+      "confusion_pair": "fear \u2192 anger"
+    },
+    {
+      "text": "i was still feeling weepy and strung out so maggie treated me to ice cream and a movie a href http www",
+      "true_label": "joy",
+      "predicted_label": "fear",
+      "confusion_pair": "joy \u2192 fear"
+    },
+    {
+      "text": "i grab it from the air its smooth frame feels cold to the touch",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i looked at mabel this morning i named my left breast mabel my right one is hazel and i feel this weird mixture of anger and loss valerie wrote less than a month after her diagnosis",
+      "true_label": "surprise",
+      "predicted_label": "sadness",
+      "confusion_pair": "surprise \u2192 sadness"
+    },
+    {
+      "text": "i always feel troubled when we re on the road touring living in a van or more recently in the circus buses no place to hang my hat as the song lyric has it",
+      "true_label": "fear",
+      "predicted_label": "sadness",
+      "confusion_pair": "fear \u2192 sadness"
+    },
+    {
+      "text": "i will feel awkward about just calling up one of these people out of the blue to hang out or rather to be familiar with them on a deeper level they are not my kith and kin",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i feel refrigerator magnets that were so popular a few years ago",
+      "true_label": "surprise",
+      "predicted_label": "love",
+      "confusion_pair": "surprise \u2192 love"
+    },
+    {
+      "text": "i feel shy to admit that i was struggling to haul a single computer up",
+      "true_label": "joy",
+      "predicted_label": "sadness",
+      "confusion_pair": "joy \u2192 sadness"
+    },
+    {
+      "text": "i was feeling particularly vulnerable in a specific area so i began to talking to my friends and interestingly enough there was an incredible understanding of my struggle",
+      "true_label": "sadness",
+      "predicted_label": "fear",
+      "confusion_pair": "sadness \u2192 fear"
+    },
+    {
+      "text": "i feel terrified because my landlord has not changed our locks yet",
+      "true_label": "sadness",
+      "predicted_label": "fear",
+      "confusion_pair": "sadness \u2192 fear"
+    },
+    {
+      "text": "i feel was pretty triumphant",
+      "true_label": "sadness",
+      "predicted_label": "fear",
+      "confusion_pair": "sadness \u2192 fear"
+    },
+    {
+      "text": "i was somewhat coerced into this blog review so i feel a bit rushed and flustered",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i do take on a half marathon challenge then i will wait and see how the body feels as to whether there will be a pb attempt or a casual kilometre shuffle",
+      "true_label": "anger",
+      "predicted_label": "fear",
+      "confusion_pair": "anger \u2192 fear"
+    },
+    {
+      "text": "i smiled at him feeling his longing and said maybe later buddy but i have to make lunch now",
+      "true_label": "anger",
+      "predicted_label": "fear",
+      "confusion_pair": "anger \u2192 fear"
+    },
+    {
+      "text": "i just feel safer than working part time casual at hr",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i feel like i am joining the masses which goes against my rebellion of the popular mentality ha i m so goth but i take peace in knowing that i am not making the same resolutions as everyone else",
+      "true_label": "surprise",
+      "predicted_label": "fear",
+      "confusion_pair": "surprise \u2192 fear"
+    },
+    {
+      "text": "i feel like being sociable and just aaaah",
+      "true_label": "sadness",
+      "predicted_label": "anger",
+      "confusion_pair": "sadness \u2192 anger"
+    },
+    {
+      "text": "i feel more thankful being greeted by many friends and families",
+      "true_label": "fear",
+      "predicted_label": "sadness",
+      "confusion_pair": "fear \u2192 sadness"
+    },
+    {
+      "text": "i just feel like someone out there has to listen and be sympathetic and then",
+      "true_label": "sadness",
+      "predicted_label": "anger",
+      "confusion_pair": "sadness \u2192 anger"
+    },
+    {
+      "text": "ive feeling a little blank and could think of nothing to write about which might be interesting to explore or had my mind captivated",
+      "true_label": "surprise",
+      "predicted_label": "fear",
+      "confusion_pair": "surprise \u2192 fear"
+    },
+    {
+      "text": "im still feeling very emotional",
+      "true_label": "anger",
+      "predicted_label": "fear",
+      "confusion_pair": "anger \u2192 fear"
+    },
+    {
+      "text": "im feeling kind of melancholy and really want to go home and cuddle up with my boys",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i am most certainly an acquired taste but lately many of those around me have seemed to feel the taste to be bitter",
+      "true_label": "fear",
+      "predicted_label": "joy",
+      "confusion_pair": "fear \u2192 joy"
+    },
+    {
+      "text": "i guess feelings aren t meant to be inhibited or prohibited",
+      "true_label": "anger",
+      "predicted_label": "joy",
+      "confusion_pair": "anger \u2192 joy"
+    },
+    {
+      "text": "im amazed how many men say they feel unloved if the house is messy and they have to fix their own dinner",
+      "true_label": "fear",
+      "predicted_label": "sadness",
+      "confusion_pair": "fear \u2192 sadness"
+    },
+    {
+      "text": "i hostage negotiator on her case has her feeling hopeful about her future",
+      "true_label": "fear",
+      "predicted_label": "anger",
+      "confusion_pair": "fear \u2192 anger"
+    },
+    {
+      "text": "i feel very important in my fancy room with my fancy furniture and nice view of downtown dallas",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i feel so heartbroken over paul walker s tragic disappearance the life of someone so generous beautiful and talented should not end this way as other horrible individuals keep on living torturing assaulting and killing people",
+      "true_label": "joy",
+      "predicted_label": "sadness",
+      "confusion_pair": "joy \u2192 sadness"
+    },
+    {
+      "text": "i feel about as helpless and superfluous as i did when jenn had elaine naturally",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i made that make me feel dumb and dumber",
+      "true_label": "fear",
+      "predicted_label": "surprise",
+      "confusion_pair": "fear \u2192 surprise"
+    },
+    {
+      "text": "i feel like i am not accepted here i and bucking this force that is coming from all quarters that tells me that something is wrong with me if i am not married with children",
+      "true_label": "anger",
+      "predicted_label": "sadness",
+      "confusion_pair": "anger \u2192 sadness"
+    },
+    {
+      "text": "i feel so blessed to be able to share it with you all",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i feel kind of awkward about doing this here goes",
+      "true_label": "anger",
+      "predicted_label": "fear",
+      "confusion_pair": "anger \u2192 fear"
+    },
+    {
+      "text": "i feel a little guilty that we have this exceptional little girl from ethiopia home and in our arms but this blog continues to surround goosey",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i have been designing earrings for some of my customers bridesmaids which i feel honoured to do",
+      "true_label": "surprise",
+      "predicted_label": "joy",
+      "confusion_pair": "surprise \u2192 joy"
+    },
+    {
+      "text": "i was learning to just deal with the nausea amp manage the unpleasantness of it at work trying to keep anyone from knowing but my sister told me there was no need to suffer amp feel miserable amp to call my dr for some zofran",
+      "true_label": "anger",
+      "predicted_label": "sadness",
+      "confusion_pair": "anger \u2192 sadness"
+    },
+    {
+      "text": "im feeling greedy for right now",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i don t follow too many people and i don t have too many followers however i have a feeling that the people that i am talking about may know who they are i m not trying to be rude i m just being real",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i was feeling adventurous though so i went with some asian flavors of ginger and sesame oil for my salad",
+      "true_label": "sadness",
+      "predicted_label": "fear",
+      "confusion_pair": "sadness \u2192 fear"
+    },
+    {
+      "text": "i want to get back in the habit of blogging about all the cool fun things im up to but am also trying to get out of this rut of only writing about feeling shitty",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i dont know whether his presence is the reason why i feel more homesick for the uk than the us or just by being here makes me miss my former home",
+      "true_label": "sadness",
+      "predicted_label": "joy",
+      "confusion_pair": "sadness \u2192 joy"
+    },
+    {
+      "text": "i get the feeling donald is smart enough to educate himself through his own densely focused meanderings and their inherent shortcomings",
+      "true_label": "fear",
+      "predicted_label": "sadness",
+      "confusion_pair": "fear \u2192 sadness"
+    },
+    {
+      "text": "i ever want to feel that vulnerable",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i couldnt feel more blessed at this time",
+      "true_label": "sadness",
+      "predicted_label": "fear",
+      "confusion_pair": "sadness \u2192 fear"
+    },
+    {
+      "text": "i feel a bit like a naughty kid who went and spent their last pence on a bag full of e numbers guilty",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i have a feeling there are a lot of pissed off people in sea org in hollywood where scientology has become the monster that devoured wa wonderfully sleazy bohemian area",
+      "true_label": "surprise",
+      "predicted_label": "fear",
+      "confusion_pair": "surprise \u2192 fear"
+    },
+    {
+      "text": "i feel pained by this",
+      "true_label": "love",
+      "predicted_label": "sadness",
+      "confusion_pair": "love \u2192 sadness"
+    },
+    {
+      "text": "i did not feel any passionate joy",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i feel rejected for trying to find my path to a stronger relationship and bond with god",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i decided to lay down in my bed but then i started to feel really violent like i wanted to punch and kick things except i didnt wnat to hurt anything",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i found myself feeling a bit overwhelmed",
+      "true_label": "joy",
+      "predicted_label": "sadness",
+      "confusion_pair": "joy \u2192 sadness"
+    },
+    {
+      "text": "i checked the babys heartbeat and continued to feel him moving so besides feeling terrible i was at peace",
+      "true_label": "fear",
+      "predicted_label": "anger",
+      "confusion_pair": "fear \u2192 anger"
+    },
+    {
+      "text": "im starting to feel really pathetic giving the bulk of my enthusiasm these days to the kardashians us weekly and roseanne marathons and completely ignoring this blog",
+      "true_label": "surprise",
+      "predicted_label": "fear",
+      "confusion_pair": "surprise \u2192 fear"
+    },
+    {
+      "text": "i love doing yoga i love learning about it i love what it has made me and when i think about sharing that with yoga students of my own i feel so hopeful and excited",
+      "true_label": "love",
+      "predicted_label": "joy",
+      "confusion_pair": "love \u2192 joy"
+    },
+    {
+      "text": "i feel completely burdened with my own intelligence",
+      "true_label": "surprise",
+      "predicted_label": "love",
+      "confusion_pair": "surprise \u2192 love"
+    },
+    {
+      "text": "i feel as if i havent blogged in ages are at least truly blogged i am doing an update cute little post today",
+      "true_label": "surprise",
+      "predicted_label": "joy",
+      "confusion_pair": "surprise \u2192 joy"
+    },
+    {
+      "text": "i feel passionate about knitting and seeing really good films and the surprisingly awesome tv programs that are on now i cant believe i just wrote that",
+      "true_label": "love",
+      "predicted_label": "sadness",
+      "confusion_pair": "love \u2192 sadness"
+    },
+    {
+      "text": "im feeling depressed again",
+      "true_label": "fear",
+      "predicted_label": "surprise",
+      "confusion_pair": "fear \u2192 surprise"
+    },
+    {
+      "text": "im feeling somewhat nostalgic about the game just from the fact that its star wars",
+      "true_label": "joy",
+      "predicted_label": "love",
+      "confusion_pair": "joy \u2192 love"
+    },
+    {
+      "text": "i feel hopeful with this new treatment to extend my life",
+      "true_label": "anger",
+      "predicted_label": "sadness",
+      "confusion_pair": "anger \u2192 sadness"
+    },
+    {
+      "text": "ive had a few rough days since then and in the midst of crying and dealing and feeling just so defeated and emotional i put my coat on and curled up and created this safety nest inside my coat",
+      "true_label": "joy",
+      "predicted_label": "anger",
+      "confusion_pair": "joy \u2192 anger"
+    }
+  ]
+}

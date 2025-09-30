@@ -1,0 +1,20 @@
+{
+  "full_finetuning": {
+    "trainable_params": 66958086,
+    "training_time_seconds": 235.7473247051239,
+    "training_time_minutes": 3.9291220784187315,
+    "test_accuracy": 0.94,
+    "test_f1": 0.9399137178861686
+  },
+  "lora": {
+    "rank": 8,
+    "trainable_params": 742662,
+    "parameter_reduction_pct": 98.89085539273032,
+    "training_time_seconds": 136.5069921016693,
+    "training_time_minutes": 2.2751165350278217,
+    "speedup": 1.726998163797655,
+    "test_accuracy": 0.935,
+    "test_f1": 0.9348808373429681,
+    "performance_retention_pct": 99.46453802647765
+  }
+}

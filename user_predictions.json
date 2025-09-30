@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Ugh Im fine okay",
+    "full_ft": "joy",
+    "full_conf": 0.9960753321647644,
+    "lora": "joy",
+    "lora_conf": 0.9969460368156433
+  },
+  {
+    "text": "UGHH!!! IM fine okay, stop bothering me",
+    "full_ft": "joy",
+    "full_conf": 0.9829891324043274,
+    "lora": "anger",
+    "lora_conf": 0.9233921766281128
+  }
+]

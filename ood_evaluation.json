@@ -1,0 +1,14 @@
+{
+  "dataset": "GoEmotions (Reddit comments)",
+  "num_examples": 756,
+  "full_finetuning": {
+    "accuracy": 0.5264550264550265,
+    "f1": 0.49327177426249635,
+    "drop_from_indomain": 0.41354497354497344
+  },
+  "lora": {
+    "accuracy": 0.5608465608465608,
+    "f1": 0.555778229288882,
+    "drop_from_indomain": 0.37415343915343924
+  }
+}
