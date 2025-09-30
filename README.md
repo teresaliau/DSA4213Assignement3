@@ -10,8 +10,8 @@ This project involves training and evaluating an emotion classification model us
 
 You will need to download the models for both the **Full Fine-Tuned Model** and the **LoRA Adapter** from the links below:
 
-* **Full Fine-Tuned Model**: [Download Link](https://drive.google.com/drive/folders/1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy?usp=sharing)
-* **LoRA Adapter**: [Download Link](https://drive.google.com/drive/folders/1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-?usp=sharing)
+**Full Fine-Tuned Model**: [Download Link](https://drive.google.com/uc?export=download&id=1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy)
+**LoRA Adapter**: [Download Link](https://drive.google.com/uc?export=download&id=1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-)
 
 ### Step 2: Upload to Google Drive
 
