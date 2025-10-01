@@ -31,6 +31,9 @@ DSA4213Assignement3/
 ```bash
 git clone https://github.com/teresaliau/DSA4213Assignement3.git
 cd DSA4213Assignement3
+python -m venv venv
+#or python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
