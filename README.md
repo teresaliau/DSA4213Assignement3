@@ -62,12 +62,13 @@ python main.py
 
 *For Google Colab:*
 1. Upload `main.ipynb` to Colab
-2. Mount Google Drive and upload models there
+2. Mount Google Drive and upload models there (in 'MyDrive'
 3. Update model paths:
    ```python
    model_full_path = '/content/drive/MyDrive/model_full_finetuned'
    model_lora_path = '/content/drive/MyDrive/model_lora_adapter'
    ```
+Point to tight path accordingly
 4. Run all cells
 
 *For local Jupyter:*
