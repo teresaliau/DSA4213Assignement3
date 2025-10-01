@@ -41,8 +41,8 @@ pip install -r requirements.txt
 Download the pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1816wQI74aatPBEL_OIk4FQhVvZtPRG39?usp=sharing) and place them in your project directory.
 
 **Individual model links:**
-- [Full Fine-Tuned Model](https://drive.google.com/drive/folders/1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy?usp=sharing)
-- [LoRA Adapter](https://drive.google.com/drive/folders/1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-?usp=sharing)
+- [Full Fine-Tuned Model](https://drive.google.com/drive/folders/17vyWvUEaaRNV-VS1ExNclcYASXwNhGXp?usp=sharing)
+- [LoRA Adapter](https://drive.google.com/drive/folders/1Fef-FreqWlStGqCVvK-3M6jCVC08eUA0?usp=sharing)
 
 ### 3. Upload Run the Code
 
