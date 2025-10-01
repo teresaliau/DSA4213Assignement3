@@ -83,11 +83,10 @@ Enter your own input sentences. If you want the py to stop running, press Enter 
 ## Potential Issues
 
 **CUDA errors on Mac:**
-- Expected - Macs don't support CUDA
 - Code automatically uses MPS (Apple Silicon) or CPU
 - For GPU access, use Google Colab with GPU runtime
 
 
 **If main.py still doesn't work:**
-Use `main.ipynb` in Google Colab instead (has GPU support and no compatibility issues)
+Use `main.ipynb` in Google Colab instead!
 
