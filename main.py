@@ -20,12 +20,12 @@ import seaborn as sns
 import os
 if not os.path.exists("./model_full_finetuned"):
     print("\\nERROR: ./model_full_finetuned/ not found!")
-    print("Please download from: https://drive.google.com/drive/folders/1exOmAGt4iIYT3tBniyPrJHAzLbUnJLKy")
+    print("Please download from: https://drive.google.com/drive/folders/17vyWvUEaaRNV-VS1ExNclcYASXwNhGXp?usp=sharing")
     exit(1)
 
 if not os.path.exists("./model_lora_adapter"):
     print("\\nERROR: ./model_lora_adapter/ not found!")
-    print("Please download from: https://drive.google.com/drive/folders/1G0PzrUMzjJ4ZNlyt_h_4X5t6X8fY0BK-")
+    print("Please download from: https://drive.google.com/drive/folders/1Fef-FreqWlStGqCVvK-3M6jCVC08eUA0?usp=sharing")
     exit(1)
 
 # Setup
