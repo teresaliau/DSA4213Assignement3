@@ -38,11 +38,30 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download Models
-Download the pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1816wQI74aatPBEL_OIk4FQhVvZtPRG39?usp=sharing) and place them in your project directory.
+Download the pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1816wQI74aatPBEL_OIk4FQhVvZtPRG39?usp=sharing) and unzip them, then place them in your project directory.
 
 **Individual model links:**
 - [Full Fine-Tuned Model](https://drive.google.com/drive/folders/17vyWvUEaaRNV-VS1ExNclcYASXwNhGXp?usp=sharing)
 - [LoRA Adapter](https://drive.google.com/drive/folders/1Fef-FreqWlStGqCVvK-3M6jCVC08eUA0?usp=sharing)
+```bash
+!ls
+```
+This should print
+
+confusion_matrices.png			
+model_full_finetuned
+data_distribution.png			
+model_lora_adapter
+error_analysis.json			
+ood_evaluation.json
+Experiments+interactve.ipynb		
+README.md
+Finetuning+creating_models.ipynb	
+requirements.txt
+main.ipynb				
+results_summary.json
+main.py					
+venv
 
 ### 3. Upload Run the Code
 
