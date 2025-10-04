@@ -9,7 +9,7 @@ This project involves training and evaluating an emotion classification model us
 
 
 ```
-DSA4213Assignement3/
+DSA4213Assignment3/
 ├── main.py                   # Main entry point - run this script
 ├── .gitignore                # Specifies which files and directories Git should ignore.
 ├── Experiments+interactive.ipynb  # Explores different texts and compares Full Fine-Tuning (FT) vs LoRA models with an interactive demo.
@@ -29,7 +29,7 @@ DSA4213Assignement3/
 
 ### 1. Install Dependencies
 ```bash
-git clone https://github.com/teresaliau/DSA4213Assignement3.git
+git clone https://github.com/teresaliau/DSA4213Assignment3.git
 cd DSA4213Assignement3
 python -m venv venv
 #or python3 -m venv venv
