@@ -48,19 +48,32 @@ Download the pre-trained models from [Google Drive](https://drive.google.com/dri
 ```
 This should print
 
-confusion_matrices.png			
+confusion_matrices.png		
+
 model_full_finetuned
-data_distribution.png			
+
+data_distribution.png		
+
 model_lora_adapter
+
 error_analysis.json			
+
 ood_evaluation.json
+
 Experiments+interactve.ipynb		
+
 README.md
+
 Finetuning+creating_models.ipynb	
+
 requirements.txt
+
 main.ipynb				
+
 results_summary.json
-main.py					
+
+main.py			
+
 venv
 
 ### 3. Upload Run the Code
