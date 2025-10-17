@@ -116,8 +116,7 @@ Enter your own input sentences. If you want the py to stop running, press Enter 
 ## Potential Issues
 
 **CUDA errors on Mac:**
-- Code automatically uses MPS (Apple Silicon) or CPU
-- For GPU access, use Google Colab with GPU runtime
+- Code automatically uses MPS or CPU
 
 
 **If main.py still doesn't work:**
