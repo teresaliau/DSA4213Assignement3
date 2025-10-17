@@ -101,6 +101,7 @@ python main.py
    model_lora_path = '/content/drive/MyDrive/model_lora_adapter'
    ```
 Point to tight path accordingly
+
 4. Run all cells
 
 *For local Jupyter:*
